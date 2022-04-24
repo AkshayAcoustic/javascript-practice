@@ -1,3 +1,5 @@
+
+// array reduce pollyfill
 let arr = [1,2,[3,4],[[5]],[[[[6]]]]]
 
 Array.prototype.myFlat = function(d=1){
